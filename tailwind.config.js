@@ -19,8 +19,9 @@ module.exports = {
             },
 
             backgroundImage: (theme) => ({
-                "spotify-theme": "url('/img/bursts-tablet.svg')",
-                "spotify-theme-mobile": "url('/img/bursts-mobile.svg')",
+                "spotify-theme": "url('/src/img/bursts.svg')",
+                "spotify-theme-md": "url('/src/img/bursts-md.svg')",
+                "spotify-theme-lg": "url('/src/img/bursts-lg.svg')",
             }),
 
             backgroundSize: {
