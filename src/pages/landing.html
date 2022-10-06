@@ -1,5 +1,5 @@
 <header>
-    <div class="flex fixed bg-black w-full px-3 py-3 lg:py-5">
+    <div class="flex  bg-black w-full px-3 py-3 lg:py-5">
         <div class="container flex items-center mx-auto lg:px-10">
             <div>
                 <a href="#">
@@ -7,35 +7,41 @@
                 </a>
             </div>
 
-            <div class="flex justify-end flex-1 md:hidden text-white text-3xl">
+            <button class="flex justify-end flex-1 md:hidden text-white text-3xl cursor-pointer" aria-label="Open Menu">
                 <div class="fas fa-bars"></div>
-            </div>
+            </button>
 
-            <div class="items-end flex-1 text-white font-bold hidden md:flex">
+            <div
+                class="items-end flex-1 text-white md:font-bold fixed h-screen w-96 bg-black right-0 top-0 md:flex md:static md:h-auto md:p-0 p-7">
                 <nav class="flex-1" aria-label="Navigation bar">
-                    <ul class="flex justify-end flex-1">
-                        <li class="px-4">
-                            <a href="#" class="hover:text-primary-400">Premium</a>
+                    <button class="float-right cursor-pointer md:hidden" aria-label="Close menu">
+                        <i class="fa fa-times text-3xl"></i>
+                    </button>
+                    <ul class="md:flex justify-end flex-1 clear-both">
+                        <li class="px-4 text-4xl md:text-base font-bold md:mb-0 mb-5 hover:text-primary-400">
+                            <a href="#">Premium</a>
                         </li>
 
-                        <li class="px-4">
-                            <a href="#" class="hover:text-primary-400">Ajuda</a>
+                        <li class="px-4 text-4xl md:text-base font-bold md:mb-0 mb-5 hover:text-primary-400">
+                            <a href="#">Ajuda</a>
                         </li>
 
-                        <li class="px-4">
+                        <li class="px-4 text-4xl md:text-base font-bold md:mb-0 mb-5 hover:text-primary-400">
                             <a href="#">Baixar</a>
                         </li>
 
                         <li class="px-4">
-                            <span class="border-r border-white"></span>
+                            <span class="md:border-r w-4 bg-white h-0.5 block md:inline border-white mt-10 mb-8"></span>
                         </li>
 
-                        <li class="px-4">
-                            <a href="#" class="hover:text-primary-400">Inscrever-se</a>
+                        <li
+                            class="px-4 text-3xl md:text-base md:mb-0 mb-5 text-gray-300 md:text-white hover:text-primary-400">
+                            <a href="#">Inscrever-se</a>
                         </li>
 
-                        <li class="px-4">
-                            <a href="#" class="hover:text-primary-400">Log In</a>
+                        <li
+                            class="px-4 text-3xl md:text-base md:mb-0 mb-5 text-gray-300 md:text-white hover:text-primary-400 ">
+                            <a href="#">Entrar</a>
                         </li>
                     </ul>
                 </nav>
