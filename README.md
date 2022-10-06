@@ -13,11 +13,11 @@ Spotify homepage clone using tailwind!
 
 https://genuine-phoenix-7e5634.netlify.app/
 
-# 🎨 Preview
+## 🎨 Preview
 
 <img src="./docs/preview.png" />
 
-# 🚀 Installing and Running
+## 🚀 Installing and Running
 
 Clone the repository
 
